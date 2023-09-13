@@ -1,0 +1,24 @@
+{
+  "name": "dbvisualize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "bin": {
+    "dbvisualize": "dist/index.js"
+  },
+  "scripts": {
+    "watch": "tsc -w",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "ion",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "sqlite3": "^5.1.6"
+  }
+}
